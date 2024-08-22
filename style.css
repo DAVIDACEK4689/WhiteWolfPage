@@ -1,0 +1,136 @@
+body {margin: 0%; background-color: rgb(180, 180, 195); width: 100%; overflow-x: hidden;}
+
+body.uvod {overflow: hidden;}
+
+div.nav {
+  width: 100%;
+  background-color: rgb(180, 180, 195);}
+
+div.nav a {
+  width: 23%;
+  padding: 1%;
+  float: left;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-size: 200%;}
+
+div.nav a:hover {
+  background-color: rgb(124, 16, 16);
+  color: rgb(255, 231, 13);}
+
+ul li {margin-top: 5%; font-size: 280%; font-weight: bold; margin-left: 22%;}
+
+ul.d li {font-size: 90%; padding: 1%; font-weight: normal;
+   margin-top: 0%; margin-left: 5%;}
+
+a {text-decoration: none; color: black;}
+
+a:hover {text-decoration: underline;  cursor: pointer;}
+
+div.pozadi {background-color: brown; padding-bottom: 2%; margin-bottom: 5%;}
+
+h1 {font-size: 400%; text-align: center; margin-bottom: 3%; padding-top: 5%;}
+
+h2 {font-size: 320%; text-align: center; margin-top: 8%; margin-bottom: 0%;
+padding-top: 5%;}
+
+h3 {font-size: 240%; margin-top: 2%; margin-left: 7%; margin-bottom: 0%;}
+
+h4 {font-size: 320%; text-align: center; margin-top: 0%; margin-bottom: 4%;
+  padding-top: 2%; background-color:rgba(68, 68, 75, 0.534); color: rgb(255, 231, 13);
+   padding-bottom: 2%} 
+ 
+p {margin: 7%; margin-bottom: 0%; margin-top: 2%;
+  font-size: 200%; text-align: justify;}
+
+div > p {text-indent: 10%; margin-top: 5%;}
+
+section {margin-bottom: 9%;}
+
+div.container {
+  display: flex;
+  width: 100%;}
+
+div.strany {
+  width: 25%;}  
+
+div.prostredek {
+    width: 50%;}
+
+div.sticky1 {
+  background-image: url("images/zaklinac.jpg");
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  background-position: center;}
+
+div.sticky2 {
+  background-image: url("images/hra.jpg");
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  background-position: center;}
+
+div.sticky3 {
+  background-image: url("images/serial.jpg");
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  background-position: center;}
+
+img {float: left;
+      margin: 0%;
+      min-height: 93vh;}
+  
+#obrazek {min-height: 20vh;
+          float: none;} 
+
+table { 
+  width: 94%;
+  background-color: brown;
+  border-collapse: collapse;
+  font-size: 200%;
+  margin-left: 3%;}
+
+caption {font-size: 150%; font-style: italic; margin-bottom: 1%;}
+
+td {border: solid; text-align: center;}
+
+th {border: solid; text-align: center;}
+
+td.titul {font-size: 115%;}
+
+td.titul :hover {color:rgb(255, 231, 13); border-color: black;
+  text-decoration: none;}
+
+td.titul2 :hover {color:rgb(255, 231, 13); border-color: black;
+  text-decoration: none;}
+
+
+ol li {margin-top: 3%; font-size: 230%; width: 40%; font-weight: normal;
+   margin-left: 36%;}
+
+   #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 1;
+    font-size: 18px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+ 
